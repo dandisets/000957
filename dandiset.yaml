@@ -16,11 +16,11 @@ assetsSummary:
     name: Neurodata Without Borders (NWB)
     schemaKey: StandardsType
   measurementTechnique:
-  - name: multi electrode extracellular electrophysiology recording technique
-    schemaKey: MeasurementTechniqueType
   - name: surgical technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 104572524670
+  - name: multi electrode extracellular electrophysiology recording technique
+    schemaKey: MeasurementTechniqueType
+  numberOfBytes: 105720873175
   numberOfFiles: 2
   numberOfSubjects: 1
   schemaKey: AssetsSummary
@@ -29,8 +29,8 @@ assetsSummary:
     name: Mus musculus - House mouse
     schemaKey: SpeciesType
   variableMeasured:
-  - ElectricalSeries
   - ElectrodeGroup
+  - ElectricalSeries
 citation: Ye, Zhiwen; Shaker, Jordan; Steinmetz, Nicholas (2024) Neuropixels Ultra
   Probe Imposed Motion Dataset (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000957/draft
 contributor:
@@ -67,13 +67,22 @@ contributor:
   - dcite:Funder
   schemaKey: Organization
 dateCreated: '2024-04-04T02:49:30.994898+00:00'
-datePublished: '2024-04-04T03:39:07.512583+00:00'
+datePublished: '2024-04-04T07:50:51.856289+00:00'
 description: "Neuropixels Ultra Probe Imposed Motion Dataset provides a dataset, where
-  Neuropixels Ultra (NP Ultra) probe motion was artificially imposed during brain
-  recording in awake mice.\nNP Ultra probe measures neural activity at ultra-high
-  density, with 6-micron center-to-center spacing between sites, in 8x48 configuration.
-  \nThis dataset provides an opportunity for designing a motion correction algorithm
-  with neural activity sampled at an unprecedented spatiotemporal resolution.  "
+  neural activity was recorded with Neuropixels Ultra (NP Ultra) in awake mouse visual
+  cortex.  NP Ultra probe measures neural activity at ultra-high density, with 6-micron
+  center-to-center spacing between sites, in 8x48 site configuration (total width
+  x length: 48 x 288 micron). \n\nProbe up-down motion was artificially imposed in
+  the brain tissue during brain recording. A total of 10 steps forward and 9 alternating
+  steps\nbackwards were imposed for each session, with 25 μm travel in each direction
+  at 1 μm/sec speed. This results in 25 micron net displacement by the end of the
+  imposed motion.\n\n118 natural images were presented at random times with repetition
+  before and after imposed motion, for \"fingerprinting\" the identities of the visual
+  cortical neurons with their unique visual responses.\n\nThis dataset provides an
+  opportunity for designing and testing spike sorting algorithms, with neural activity
+  sampled at an unprecedented spatiotemporal resolution.(1) Manually imposed motion
+  and (2)neural identification with visual responses pre- and post- motion provide
+  ground truth reference for testing the accuracy of motion correction and spike sorting."
 ethicsApproval: []
 id: DANDI:000957/draft
 identifier: DANDI:000957
@@ -86,13 +95,13 @@ manifestLocation:
 name: Neuropixels Ultra Probe Imposed Motion Dataset
 protocol: []
 publishedBy:
-  endDate: '2024-04-04T03:39:07.512583+00:00'
-  id: urn:uuid:42835dff-8e0c-4eaa-934f-59b607cdd7bd
+  endDate: '2024-04-04T07:50:51.856289+00:00'
+  id: urn:uuid:49fb126f-e151-4875-8e41-9ac96f8dfcd1
   name: DANDI publish
   schemaKey: PublishActivity
-  startDate: '2024-04-04T03:39:07.512583+00:00'
+  startDate: '2024-04-04T07:50:51.856289+00:00'
   wasAssociatedWith:
-  - id: urn:uuid:0317f12e-6853-42c7-bb70-793aa47a428b
+  - id: urn:uuid:e47a7b06-0f74-439c-8561-f89c9a62f492
     identifier: RRID:SCR_017571
     name: DANDI API
     schemaKey: Software
