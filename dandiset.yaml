@@ -32,7 +32,8 @@ assetsSummary:
   - ElectrodeGroup
   - ElectricalSeries
 citation: Ye, Zhiwen; Shaker, Jordan; Steinmetz, Nicholas (2024) Neuropixels Ultra
-  Probe Imposed Motion Dataset (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000957/draft
+  Probe Imposed Motion Dataset (Version 0.240404.0750) [Data set]. DANDI archive.
+  https://doi.org/10.48324/dandi.000957/0.240404.0750
 contributor:
 - affiliation:
   - identifier: https://ror.org/00cvxb145
@@ -83,15 +84,16 @@ description: "Neuropixels Ultra Probe Imposed Motion Dataset provides a dataset,
   sampled at an unprecedented spatiotemporal resolution.(1) Manually imposed motion
   and (2)neural identification with visual responses pre- and post- motion provide
   ground truth reference for testing the accuracy of motion correction and spike sorting."
+doi: 10.48324/dandi.000957/0.240404.0750
 ethicsApproval: []
-id: DANDI:000957/draft
+id: DANDI:000957/0.240404.0750
 identifier: DANDI:000957
 keywords:
 - Neuropixels ultra, imposed motion, V1
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/000957/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/000957/0.240404.0750/assets.yaml
 name: Neuropixels Ultra Probe Imposed Motion Dataset
 protocol: []
 publishedBy:
@@ -121,6 +123,6 @@ schemaVersion: 0.6.7
 studyTarget:
 - sampling neural activity during probe-brain motion at an unprecedented spatiotemporal
   resolution
-url: https://dandiarchive.org/dandiset/000957/draft
-version: draft
+url: https://dandiarchive.org/dandiset/000957/0.240404.0750
+version: 0.240404.0750
 wasGeneratedBy: []
