@@ -67,7 +67,7 @@ contributor:
   - dcite:Funder
   schemaKey: Organization
 dateCreated: '2024-04-04T02:49:30.994898+00:00'
-datePublished: '2024-04-04T07:50:51.856289+00:00'
+datePublished: '2024-04-05T08:47:28.271009+00:00'
 description: "Neuropixels Ultra Probe Imposed Motion Dataset provides a dataset, where
   neural activity was recorded with Neuropixels Ultra (NP Ultra) in awake mouse visual
   cortex.  NP Ultra probe measures neural activity at ultra-high density, with 6-micron
@@ -95,13 +95,13 @@ manifestLocation:
 name: Neuropixels Ultra Probe Imposed Motion Dataset
 protocol: []
 publishedBy:
-  endDate: '2024-04-04T07:50:51.856289+00:00'
-  id: urn:uuid:49fb126f-e151-4875-8e41-9ac96f8dfcd1
+  endDate: '2024-04-05T08:47:28.271009+00:00'
+  id: urn:uuid:75444b22-5802-464c-941b-7701c3249ffc
   name: DANDI publish
   schemaKey: PublishActivity
-  startDate: '2024-04-04T07:50:51.856289+00:00'
+  startDate: '2024-04-05T08:47:28.271009+00:00'
   wasAssociatedWith:
-  - id: urn:uuid:e47a7b06-0f74-439c-8561-f89c9a62f492
+  - id: urn:uuid:a130363d-0bc2-4c02-8b52-9bfac990126c
     identifier: RRID:SCR_017571
     name: DANDI API
     schemaKey: Software
