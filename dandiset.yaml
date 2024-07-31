@@ -20,8 +20,8 @@ assetsSummary:
     schemaKey: MeasurementTechniqueType
   - name: multi electrode extracellular electrophysiology recording technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 430210855757
-  numberOfFiles: 8
+  numberOfBytes: 484961742641
+  numberOfFiles: 9
   numberOfSubjects: 5
   schemaKey: AssetsSummary
   species:
@@ -67,7 +67,7 @@ contributor:
   - dcite:Funder
   schemaKey: Organization
 dateCreated: '2024-04-04T02:49:30.994898+00:00'
-datePublished: '2024-04-07T01:42:56.782231+00:00'
+datePublished: '2024-07-31T02:49:27.683692+00:00'
 description: "Neuropixels Ultra Probe Imposed Motion Dataset provides a dataset, where
   neural activity was recorded with Neuropixels Ultra (NP Ultra) in awake mouse visual
   cortex.  NP Ultra probe measures neural activity at ultra-high density, with 6-micron
@@ -95,13 +95,13 @@ manifestLocation:
 name: Neuropixels Ultra Probe Imposed Motion Dataset
 protocol: []
 publishedBy:
-  endDate: '2024-04-07T01:42:56.782231+00:00'
-  id: urn:uuid:e940b99c-f412-4f12-8dc5-a11f9627452e
+  endDate: '2024-07-31T02:49:27.683692+00:00'
+  id: urn:uuid:30a6a9e5-aaa9-46f1-ae3d-b4632e0239e0
   name: DANDI publish
   schemaKey: PublishActivity
-  startDate: '2024-04-07T01:42:56.782231+00:00'
+  startDate: '2024-07-31T02:49:27.683692+00:00'
   wasAssociatedWith:
-  - id: urn:uuid:8d215425-ada1-4d56-bceb-27accddc8faa
+  - id: urn:uuid:f4c1df25-1076-4fcd-b56f-74c6911d6990
     identifier: RRID:SCR_017571
     name: DANDI API
     schemaKey: Software
